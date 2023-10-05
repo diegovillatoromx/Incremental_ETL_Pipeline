@@ -28,7 +28,7 @@ In the realm of AWS and data engineering, harnessing data analytics techniques f
 
 ## Description
 
-The ETL pipeline for Spotify adeptly oversees the ETL (Extract, Transform, Load) process. It functions as the lifeblood of this data-driven music streaming giant, efficiently transferring raw data between systems, collecting, storing, analyzing, and transforming data, and presenting essential key performance indicators (KPIs). This pivotal role shapes Spotify's strategy, ensures a seamless user experience, and preserves its competitive edge in a dynamic industry.
+In the context of AWS data engineering, cryptocurrency data analytics involves building an incremental Extract, Transform, Load (ETL) solution using AWS CDK. This entails using Lambda functions to collect cryptocurrency data from an API and stream it into Kinesis streams, where transformations are applied and data is stored in DynamoDB. Subsequently, tools like Apache Flink and Apache Zeppelin are leveraged for analyzing the data within the Kinesis streams, while AWS serverless services like Lambda and Glue efficiently process data from diverse sources. Additionally, Amazon Athena is used to query and explore data stored in DynamoDB, extracting insights and enabling data-driven decision-making in the cryptocurrency realm, providing a comprehensive and scalable solution for cryptocurrency data analysis.
 
 ## Architecture
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/architecture_diagram_spotify.gif' alt="architecture_diagram_spotify">
