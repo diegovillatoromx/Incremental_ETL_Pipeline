@@ -62,4 +62,4 @@ Below are the steps required to set up the environment and run this Data Science
 ## Reporting Issues
   Use "Issues" to report bugs or suggest improvements.
 # Contact
-For questions or contact, my [Mail](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx).
+For questions or contact, my [Mail](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx). 
