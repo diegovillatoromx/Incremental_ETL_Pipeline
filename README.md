@@ -56,7 +56,7 @@ Below are the steps required to set up the environment and run this Data Science
 `
 
 ## Contribution
-  1. Focus changes on specific improvements.
+  1. Focus changes on spec ific improvements.
   2. Follow project's coding style.
   3. Provide detailed descriptions in pull requests.
 ## Reporting Issues
