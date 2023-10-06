@@ -48,7 +48,7 @@ Tutorial
 ## Installation
 
 Below are the steps required to set up the environment and run this Data Science project on your local machine. Make sure you have the following installed:
-- Python 3.x: You can download it from [python.org](https://www.python.org/downloads/).
+- Python 3.x: You can download it from [python.org](https://www.python.org/downloads/). 
 - Pip: In most cases you can install [here](https://pip.pypa.io/en/stable/installing/).
 - AWS CLI: you can download it from [AWSCLI.com](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
