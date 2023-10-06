@@ -43,7 +43,7 @@ Tutorial
     |_tutorial_aws.ipynb
 
   spotipy_library
-    |_spotipy_layer.zip
+    |_spotipy_layer.zip 
 ```
 ## Installation
 
