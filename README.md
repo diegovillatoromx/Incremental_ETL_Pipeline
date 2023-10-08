@@ -66,6 +66,23 @@ Within the context of this financial data engineering project in AWS, we are acq
  - 📜 README.md (Repository Main Page)
 
 
+# Data-Batch-Spotify-API
+
+- `credentials.csv`
+
+# DE_Pipeline
+- `IAM/`
+- `s3/`
+- `Lambda/`
+- `CloudWatchEvents/`
+- `GlueCatalog/`
+
+# Tutorial
+- `tutorial_aws.ipynb`
+
+# spotipy_library
+- `spotipy_layer.zip`
+
 
 ## Installation
  
