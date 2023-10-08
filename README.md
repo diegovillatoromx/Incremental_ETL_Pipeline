@@ -29,8 +29,7 @@ By combining these AWS services and technologies, our aim is to create a robust 
 
 ## Data Description
 
-[Alpha Vantage](https://www.alphavantage.co/documentation/) offers enterprise-grade financial market data via a collection of robust and developer-friendly data APIs and spreadsheets. Alpha Vantage is your one-stop shop for real-time and historical global market data delivered through REST stock APIs, Excel, and Google Sheets, ranging from traditional asset classes (e.g., stocks, ETFs, commodities) to economic metrics, foreign exchange rates to cryptocurrencies, fundamental data to technical indicators.
-
+Within the context of this financial data engineering project in AWS, we are acquiring valuable information through the [Alpha Vantage API](https://www.alphavantage.co/documentation/). Alpha Vantage is positioned as a financial data provider that furnishes us with real-time and historical data for a broad spectrum of financial assets, encompassing stocks, indices, currencies, and cryptocurrencies. This API is employed for the purpose of accessing historical closing prices of stocks, enabling our analysis and predictive modeling within the AWS environment. This information becomes paramount for making well-informed decisions in financial markets.
 
 ## Modular_Code_Overview
 
