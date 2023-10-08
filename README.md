@@ -33,38 +33,37 @@ Within the context of this financial data engineering project in AWS, we are acq
 
 ## Modular_Code_Overview
 
-📦 Nombre del Repositorio (Data Pipeline ETL en AWS)
- ┣ 📂 docs
- ┃ ┣ 📜 README.md (Página principal de documentación)
- ┃ ┣ 📜 Architecture.md (Arquitectura de Datos)
- ┃ ┣ 📜 Design.md (Diseño del Pipeline)
- ┃ ┣ 📜 Configuration.md (Configuración de AWS)
- ┃ ┣ 📜 Testing.md (Pruebas y Validaciones)
- ┃ ┣ 📜 UserGuide.md (Guía de Usuario)
- ┃ ┣ 📜 CostManagement.md (Gestión de Costos)
- ┃ ┣ 📜 ...
- ┣ 📂 src
- ┃ ┣ 📂 etl_pipeline
- ┃ ┃ ┣ 📜 etl_script.py (Código del Pipeline)
- ┃ ┃ ┣ 📜 transform_functions.py (Funciones de Transformación)
- ┃ ┃ ┣ 📜 ...
- ┃ ┣ 📂 data
- ┃ ┃ ┣ 📜 sample_data.csv (Datos de Ejemplo)
- ┃ ┃ ┣ 📜 ...
- ┃ ┣ 📂 tests
- ┃ ┃ ┣ 📜 unit_tests.py (Pruebas Unitarias)
- ┃ ┃ ┣ 📜 integration_tests.py (Pruebas de Integración)
- ┃ ┃ ┣ ...
- ┣ 📂 assets
- ┃ ┣ 🖼️ architecture_diagram.png (Diagrama de Arquitectura)
- ┃ ┣ 📷 screenshots
- ┃ ┃ ┣ 🖼️ screenshot1.png
- ┃ ┃ ┣ 🖼️ screenshot2.png
- ┃ ┃ ┣ ...
- ┣ 📜 LICENSE.txt (Licencia)
- ┣ 📜 .gitignore (Configuración de Ignorar Archivos)
- ┣ 📜 README.md (Página Principal del Repositorio)
-
+## 📦 Repository Name (Data Pipeline ETL on AWS)
+ - 📂 docs
+   - 📜 README.md (Main Documentation Page)
+   - 📜 Architecture.md (Data Architecture)
+   - 📜 Design.md (Pipeline Design)
+   - 📜 Configuration.md (AWS Configuration)
+   - 📜 Testing.md (Testing and Validation)
+   - 📜 UserGuide.md (User Guide)
+   - 📜 CostManagement.md (Cost Management)
+   - 📜 ...
+ - 📂 src
+   - 📂 etl_pipeline
+     - 📜 etl_script.py (Pipeline Code)
+     - 📜 transform_functions.py (Transformation Functions)
+     - 📜 ...
+ - 📂 data
+   - 📜 sample_data.csv (Sample Data)
+   - 📜 ...
+ - 📂 tests
+   - 📜 unit_tests.py (Unit Tests)
+   - 📜 integration_tests.py (Integration Tests)
+   - 📜 ...
+ - 📂 assets
+   - 🖼️ architecture_diagram.png (Architecture Diagram)
+   - 📷 screenshots
+     - 🖼️ screenshot1.png
+     - 🖼️ screenshot2.png
+     - ...
+ - 📜 LICENSE.txt (License)
+ - 📜 .gitignore (Ignore File Configuration)
+ - 📜 README.md (Repository Main Page)
 
 
 ```
