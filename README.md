@@ -16,7 +16,13 @@ In the domain of Data Engineeri ng within AWS, cryptocurrency data analytics inv
 
 ## Description
 
-In the context of AWS data engineering, cryptocurrency data analytics involves building an incremental Extract, Transform, Load (ETL) solution using AWS CDK. This entails using Lambd a functions to collect cryptocurrency data from an API and stream it into Kinesis streams, where transformations are applied and data is stored in DynamoDB. Subsequently, tools like Apache Flink and Apache Zeppelin are leveraged for analyzing the data within the Kinesis streams, while AWS serverless services like Lambda and Glue efficiently process data from diverse sources. Additionally, Amazon Athena is used to query and explore data stored in DynamoDB, extracting insights and enabling data-driven decision-making in the cryptocurrency realm, providing a comprehensive and scalable solution for cryptocurrency data analysis.
+The primary objective of this project is to develop an incremental Extract, Transform, Load (ETL) solution using AWS CDK for the analysis of cryptocurrency data. This process involves the construction of a serverless pipeline, in which Lambda functions are employed for data extraction from an API and subsequent streaming into Kinesis streams. Additionally, a standalone Lambda function will be created to consume data from the Kinesis stream, apply essential transformations, and store them in DynamoDB.
+
+To conduct real-time data analytics within the Kinesis streams, we will utilize Apache Flink and Apache Zeppelin. These tools will empower us to extract insights and derive valuable information from the data. AWS serverless technologies, including Amazon Lambda and Amazon Glue, will be leveraged for efficient processing and transformation of data from three distinct data sources.
+
+Furthermore, Amazon Athena, a query service, will be used to analyze the transformed data stored in DynamoDB. This will facilitate efficient querying and data exploration, enabling us to extract meaningful insights and make informed decisions based on cryptocurrency data.
+
+By combining these AWS services and technologies, our aim is to create a robust and scalable solution for cryptocurrency data analysis, enabling comprehensive data processing, transformation, and analysis.
 
 ## Architecture
 <img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/incremental-etl.gif' alt="incremental_etl_alpha_api">
