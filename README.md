@@ -67,8 +67,7 @@ Within the context of this financial data engineering project in AWS, we are acq
 
 ## Installation
  
-Below are the steps required to set up the environment and run this Data Science project on your local machine. Make sure you have the following installed:
-
+Below are the steps required to set up the environment and run this Data engineering project on cloud9 on aws.
 To create an AWS Cloud9 environment, you can follow these steps:
 
 1. Open the AWS Management Console: Go to the AWS Management Console (https://console.aws.amazon.com) and sign in to your AWS account.
