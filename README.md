@@ -65,24 +65,6 @@ Within the context of this financial data engineering project in AWS, we are acq
  - 📜 README.md (Repository Main Page)
 
 
-# Data-Batch-Spotify-API
-
-- `credentials.csv`
-
-# DE_Pipeline
-- `IAM/`
-- `s3/`
-- `Lambda/`
-- `CloudWatchEvents/`
-- `GlueCatalog/`
-
-# Tutorial
-- `tutorial_aws.ipynb`
-
-# spotipy_library
-- `spotipy_layer.zip`
-
-
 ## Installation
  
 Below are the steps required to set up the environment and run this Data Science project on your local machine. Make sure you have the following installed:
