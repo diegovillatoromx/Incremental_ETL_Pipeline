@@ -92,6 +92,8 @@ To create an AWS Cloud9 environment, you can follow these steps:
 
 ## Cloning GitHub repository to AWS Cloud9 
 
+1. Open your AWS Cloud9 environment: Access the [AWS Management Console](https://console.aws.amazon.com) and go to the Cloud9 service. Select the Cloud9 environment you wish to link with GitHub.
+2. Configure Git credentials: In your Cloud9 environment, open a new terminal by clicking on the "Window" menu and selecting "New Terminal." Run the following commands to configure your Git credentials:
 
 ## Contribution
   1. Focus changes on spec ific improvements.
