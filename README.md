@@ -8,7 +8,7 @@ In the domain of Data Engineering within AWS, cryptocurrency data analytics invo
 
 - [Description](#description)
 - [Architecture](#architecture)
-- [Modular_Code_Overview](#modular-code-overview)
+- [Modular Code Overview](#modular-code-overview)
 - [Installation](#installation)
 - [Cloning GitHub repository to AWS Cloud9 ](#Cloning-GitHub-repository-to-AWS-Cloud9) 
 - [Contribution](#contribution)
