@@ -10,7 +10,7 @@ In the domain of Data Engineering within AWS, cryptocurrency data analytics invo
 - [Architecture](#architecture)
 - [Modular Code Overview](#modular-code-overview)
 - [Installation](#installation)
-- [Cloning GitHub repository to AWS Cloud9 ](#Cloning-GitHub-repository-to-AWS-Cloud9) 
+- [Cloning GitHub repository to AWS Cloud9](#Cloning-GitHub-repository-to-AWS-Cloud9) 
 - [Contribution](#contribution)
 - [Contact](#contact)
 
@@ -94,6 +94,10 @@ To create an AWS Cloud9 environment, you can follow these steps:
 
 1. Open your AWS Cloud9 environment: Access the [AWS Management Console](https://console.aws.amazon.com) and go to the Cloud9 service. Select the Cloud9 environment you wish to link with GitHub.
 2. Configure Git credentials: In your Cloud9 environment, open a new terminal by clicking on the "Window" menu and selecting "New Terminal." Run the following commands to configure your Git credentials:
+'''
+git config --global user.name "Your GitHub Username"
+git config --global user.email "Your GitHub Email"
+'''
 
 ## Contribution
   1. Focus changes on spec ific improvements.
