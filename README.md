@@ -108,7 +108,7 @@ command in your Cloud9 terminal:
    ```bash
    cat ~/.ssh/id_rsa.pub
    ```
-Copy the entire contents of the public key that is displayed in the terminal.
+   Copy the entire contents of the public key that is displayed in the terminal.
 5. Add the public key to your GitHub account: Go to your [GitHub account settings](https://github.com/settings/profile) and navigate to the "SSH and GPG keys" section. Click on
 "New SSH key" and give it a descriptive title. Paste the public key you copied in the previous step
 and click "Add SSH key."
@@ -117,14 +117,12 @@ the following command in the Cloud9 terminal:
    ```bash
    ssh -T git@github.com
    ```
-You should see a success message indicating that you've successfully authenticated with GitHub.
-7. Clone a GitHub repository: In your Cloud9 environment, navigate to the directory where you
-want to clone the GitHub repository. Run the following command to clone the repository:
+   You should see a success message indicating that you've successfully authenticated with GitHub.
+7. Clone a GitHub repository: In your Cloud9 environment, navigate to the directory where you want to clone the GitHub repository. Run the following command to clone the repository:
    ```bash
    git clone git@github.com:username/repository.git
    ```
-Replace username with your GitHub username and repository with the name of the repository
-you want to clone
+   Replace username with your GitHub username and repository with the name of the repository you want to clone.
 ## Contribution
   1. Focus changes on spec ific improvements.
   2. Follow project's coding style.
