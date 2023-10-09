@@ -50,13 +50,13 @@ Within the context of this financial data engineering project in AWS, we are acq
     |_📂 scripts
     |  |_📜 CryptoHourlyETLJob.py
     |  |_📜 flink_script.sql
-
+    |_📂 tests
+    |  |_📜 __init__.py
+    |  |_📂 unit
+    |    |_📜 __init__.py
+    |    |_📜 test_crypto_incremental_pipeline_stack.py
 ```
  
-- 📂`scripts/`: Contains useful scripts.
-  - `CryptoHourlyETLJob.py`: Script for Crypto Hourly ETL job.
-  - `flink_script.sql`: SQL script for Flink processing.
-
 - `tests/`: Holds unit tests.
   - `unit/`
     - `__init__.py`
