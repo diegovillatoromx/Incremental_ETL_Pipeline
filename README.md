@@ -55,22 +55,12 @@ Within the context of this financial data engineering project in AWS, we are acq
     |  |_📂 unit
     |    |_📜 __init__.py
     |    |_📜 test_crypto_incremental_pipeline_stack.py
+    | 📜 app.py
+    | 📜 cdk.json 
+    | 📜 requirements-dev.txt 
+    | 📜 requirements.txt  
+    | 📜 source.bat
 ```
- 
-- `tests/`: Holds unit tests.
-  - `unit/`
-    - `__init__.py`
-
-## 📜 Files
-
-- `README.md`: Main project documentation.
-- `app.py`: Main application file.
-- `cdk.json`: Configuration for AWS CDK.
-- `requirements-dev.txt`: Requirements for development.
-- `requirements.txt`: Application requirements.
-- `source.bat`: Batch script for sourcing.
-
-This project is organized into modules and includes various code files and scripts to support its functionality. Refer to each module's respective directory and stack file for more details on their implementation.
 
 
 ## To create an AWS Cloud9 environment
