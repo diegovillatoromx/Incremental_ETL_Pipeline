@@ -62,7 +62,7 @@ This project is organized into modules and includes various code files and scrip
     | 📜 requirements.txt  
     | 📜 source.bat
 ```
-
+Refer to each module's respective directory and stack file for more details on their implementation.
 
 ## To create an AWS Cloud9 environment
  
