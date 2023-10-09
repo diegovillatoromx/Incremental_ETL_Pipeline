@@ -35,37 +35,24 @@ Within the context of this financial data engineering project in AWS, we are acq
 ## Modular Code Overview
 
 ```
-  📂 Incremental ETL Pipeline
+  📂 crypto_incremental_pipeline
     |_📂 data_consumer
     |  |_📜 data_consumer_stack.py
     |_📂 data_producer
     |  |_📜 data_producer_stack.py
-    |_📂 kinesis_stream/
+    |_📂 kinesis_stream
     |  |_📜 kinesis_stream_stack.py
     |_📂 lambda
     |  |_📜 data_consumer_lambda.py
     |  |_📜 data_producer_lambda.py
-
+    |_📂 s3_bucket
+    |  |_📜 s3_bucket_stack.py
+    |_📂 scripts
+    |  |_📜 CryptoHourlyETLJob.py
+    |  |_📜 flink_script.sql
 
 ```
  
-📂Incremental ETL Pipeline
-- 📂 `data_consumer/`: Contains code related to the data consumer module.
-  - `data_consumer_stack.py`: Stack file for data consumer module.
-
-- 📂`data_producer/`: Contains code related to the data producer module.
-  - `data_producer_stack.py`: Stack file for data producer module.
-
-- 📂`kinesis_stream/`: Relates to the Kinesis stream module.
-  - `kinesis_stream_stack.py`: Stack file for Kinesis stream module.
-
-- 📂`lambda/`: Includes AWS Lambda functions.
-  - `data_consumer_lambda.py`: Code for the data consumer Lambda function.
-  - `data_producer_lambda.py`: Code for the data producer Lambda function.
-
-- 📂`s3_bucket/`: Pertains to the S3 bucket module.
-  - `s3_bucket_stack.py`: Stack file for the S3 bucket module.
-
 - 📂`scripts/`: Contains useful scripts.
   - `CryptoHourlyETLJob.py`: Script for Crypto Hourly ETL job.
   - `flink_script.sql`: SQL script for Flink processing.
