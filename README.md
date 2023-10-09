@@ -10,7 +10,7 @@ In the domain of Data Engineering within AWS, cryptocurrency data analytics invo
 - [Architecture](#architecture)
 - [Modular_Code_Overview](#modular-code-overview)
 - [Installation](#installation)
-- [Usage](#usage) 
+- [Cloning GitHub repository to AWS Cloud9 ](#Cloning-GitHub-repository-to-AWS-Cloud9) 
 - [Contribution](#contribution)
 - [Contact](#contact)
 
@@ -90,7 +90,7 @@ To create an AWS Cloud9 environment, you can follow these steps:
 7. Wait for the environment to be created: The Cloud9 environment creation process may take a few minutes. You can monitor the progress on the Cloud9 dashboard.
 8. Access the Cloud9 IDE: Once the environment is created, you can click on its name in the Cloud9 dashboard to access the Cloud9 integrated development environment (IDE) in your web browser.
 
-## Usage
+## Cloning GitHub repository to AWS Cloud9 
 
 
 ## Contribution
