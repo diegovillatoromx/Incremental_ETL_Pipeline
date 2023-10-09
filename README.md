@@ -65,7 +65,7 @@ Within the context of this financial data engineering project in AWS, we are acq
  - 📜 README.md (Repository Main Page)
 
 
-## Installation
+## To create an AWS Cloud9 environment
  
 Below are the steps required to set up the environment and run this Data engineering project on cloud9 on aws.
 To create an AWS Cloud9 environment, you can follow these steps:
