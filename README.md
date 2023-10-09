@@ -40,7 +40,13 @@ Within the context of this financial data engineering project in AWS, we are acq
     |  |_📜 data_consumer_stack.py
     |_📂 data_producer
     |  |_📜 data_producer_stack.py
-    |_credentials.csv
+    |_📂 kinesis_stream/
+    |  |_📜 kinesis_stream_stack.py
+    |_📂 lambda
+    |  |_📜 data_consumer_lambda.py
+    |  |_📜 data_producer_lambda.py
+
+
 ```
  
 📂Incremental ETL Pipeline
