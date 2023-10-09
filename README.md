@@ -118,6 +118,13 @@ the following command in the Cloud9 terminal:
    ssh -T git@github.com
    ```
 You should see a success message indicating that you've successfully authenticated with GitHub.
+7. Clone a GitHub repository: In your Cloud9 environment, navigate to the directory where you
+want to clone the GitHub repository. Run the following command to clone the repository:
+   ```bash
+   git clone git@github.com:username/repository.git
+   ```
+Replace username with your GitHub username and repository with the name of the repository
+you want to clone
 ## Contribution
   1. Focus changes on spec ific improvements.
   2. Follow project's coding style.
