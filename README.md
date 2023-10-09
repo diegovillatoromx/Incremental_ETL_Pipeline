@@ -34,6 +34,15 @@ Within the context of this financial data engineering project in AWS, we are acq
 
 ## Modular Code Overview
 
+```
+  📂 Incremental ETL Pipeline
+    |_📂 data_consumer
+    |  |_📜 data_consumer_stack.py
+    |_📂 data_producer
+    |  |_📜 data_producer_stack.py
+    |_credentials.csv
+```
+ 
 📂Incremental ETL Pipeline
 - 📂 `data_consumer/`: Contains code related to the data consumer module.
   - `data_consumer_stack.py`: Stack file for data consumer module.
