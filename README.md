@@ -34,36 +34,41 @@ Within the context of this financial data engineering project in AWS, we are acq
 
 ## Modular Code Overview
 
- - 📂 docs
-   - 📜 README.md (Main Documentation Page)
-   - 📜 Architecture.md (Data Architecture)
-   - 📜 Design.md (Pipeline Design)
-   - 📜 Configuration.md (AWS Configuration)
-   - 📜 Testing.md (Testing and Validation)
-   - 📜 UserGuide.md (User Guide)
-   - 📜 CostManagement.md (Cost Management)
-   - 📜 ...
- - 📂 src
-   - 📂 etl_pipeline
-     - 📜 etl_script.py (Pipeline Code)
-     - 📜 transform_functions.py (Transformation Functions)
-     - 📜 ...
- - 📂 data
-   - 📜 sample_data.csv (Sample Data)
-   - 📜 ...
- - 📂 tests
-   - 📜 unit_tests.py (Unit Tests)
-   - 📜 integration_tests.py (Integration Tests)
-   - 📜 ...
- - 📂 assets
-   - 🖼️ architecture_diagram.png (Architecture Diagram)
-   - 📷 screenshots
-     - 🖼️ screenshot1.png
-     - 🖼️ screenshot2.png
-     - ...
- - 📜 LICENSE.txt (License)
- - 📜 .gitignore (Ignore File Configuration)
- - 📜 README.md (Repository Main Page)
+📂Incremental ETL Pipeline
+- 📂 `data_consumer/`: Contains code related to the data consumer module.
+  - `data_consumer_stack.py`: Stack file for data consumer module.
+
+- 📂`data_producer/`: Contains code related to the data producer module.
+  - `data_producer_stack.py`: Stack file for data producer module.
+
+- 📂`kinesis_stream/`: Relates to the Kinesis stream module.
+  - `kinesis_stream_stack.py`: Stack file for Kinesis stream module.
+
+- 📂`lambda/`: Includes AWS Lambda functions.
+  - `data_consumer_lambda.py`: Code for the data consumer Lambda function.
+  - `data_producer_lambda.py`: Code for the data producer Lambda function.
+
+- 📂`s3_bucket/`: Pertains to the S3 bucket module.
+  - `s3_bucket_stack.py`: Stack file for the S3 bucket module.
+
+- 📂`scripts/`: Contains useful scripts.
+  - `CryptoHourlyETLJob.py`: Script for Crypto Hourly ETL job.
+  - `flink_script.sql`: SQL script for Flink processing.
+
+- `tests/`: Holds unit tests.
+  - `unit/`
+    - `__init__.py`
+
+## 📜 Files
+
+- `README.md`: Main project documentation.
+- `app.py`: Main application file.
+- `cdk.json`: Configuration for AWS CDK.
+- `requirements-dev.txt`: Requirements for development.
+- `requirements.txt`: Application requirements.
+- `source.bat`: Batch script for sourcing.
+
+This project is organized into modules and includes various code files and scripts to support its functionality. Refer to each module's respective directory and stack file for more details on their implementation.
 
 
 ## To create an AWS Cloud9 environment
