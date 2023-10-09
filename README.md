@@ -98,6 +98,17 @@ To create an AWS Cloud9 environment, you can follow these steps:
    git config --global user.name "Your GitHub Username"
    git config --global user.email "Your GitHub Email"
    ```
+3. Generate and add an SSH key: To securely connect Cloud9 with your GitHub account, you need
+to generate an SSH key pair and add the public key to your GitHub account. Run the following
+command in your Cloud9 terminal:
+   ```bash
+   ssh-keygen -t rsa -b 4096 -C "Your GitHub Email"
+   ```
+4. View and copy the public key: Run the following command to display your public key:
+   ```bash
+   cat ~/.ssh/id_rsa.pub
+   ```
+Copy the entire contents of the public key that is displayed in the terminal.
 ## Contribution
   1. Focus changes on spec ific improvements.
   2. Follow project's coding style.
