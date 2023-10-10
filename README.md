@@ -27,9 +27,10 @@ By combining these AWS services and technologies, our aim is to create a robust 
 
 ## Architecture
 <img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/etl-alpha.gif' alt="incremental_etl_alpha_api">
+### 
+
 
 ## Data Description
-
 Within the context of this financial data engineering project in AWS, we are acquiring valuable information through the [Alpha Vantage API](https://www.alphavantage.co/documentation/). Alpha Vantage is positioned as a financial data provider that furnishes us with real-time and historical data for a broad spectrum of financial assets, encompassing stocks, indices, currencies, and cryptocurrencies. This API is employed for the purpose of accessing historical closing prices of stocks, enabling our analysis and predictive modeling within the AWS environment. This information becomes paramount for making well-informed decisions in financial markets.
 
 ## Modular Code Overview
