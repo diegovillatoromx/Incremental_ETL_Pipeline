@@ -32,6 +32,10 @@ By combining these AWS services and technologies, our aim is to create a robust 
 First and foremost, we'll underscore the importance of avoiding the use of the root user for enhanced cloud security. Simultaneously, we'll initiate the creation of a new user responsible for establishing the entire architecture. In addition, we'll craft new roles, including those tailored for Lambda and AWS Glue, each meticulously configured with their requisite permissions.
 <img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/images/iam_user.gif' alt="iam_user.gif">
 
+Next, a Python script that fetches cryptocurrency exchange rate data from the Alpha Vantage API
+and stores it in an AWS Kinesis data stream.
+
+<img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/images/data_production.gif' alt="lambda.gif">
 
 ## Data Description
 Within the context of this financial data engineering project in AWS, we are acquiring valuable information through the [Alpha Vantage API](https://www.alphavantage.co/documentation/). Alpha Vantage is positioned as a financial data provider that furnishes us with real-time and historical data for a broad spectrum of financial assets, encompassing stocks, indices, currencies, and cryptocurrencies. This API is employed for the purpose of accessing historical closing prices of stocks, enabling our analysis and predictive modeling within the AWS environment. This information becomes paramount for making well-informed decisions in financial markets.
