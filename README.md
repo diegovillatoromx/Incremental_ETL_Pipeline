@@ -26,7 +26,7 @@ Furthermore, Amazon Athena, a query service, will be used to analyze the transfo
 By combining these AWS services and technologies, our aim is to create a robust and scalable solution for cryptocurrency data analysis, enabling comprehensive data processing, transformation, and analysis.
 
 ## Architecture
-<img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/etl-alpha.gif' alt="incremental_etl_alpha_api">
+<img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/images/etl-alpha.gif' alt="incremental_etl_alpha_api">
 ### 
 
 
