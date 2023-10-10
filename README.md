@@ -27,7 +27,10 @@ By combining these AWS services and technologies, our aim is to create a robust 
 
 ## Architecture
 <img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/images/etl-alpha.gif' alt="incremental_etl_alpha_api">
-### 
+
+### Methodology 
+First and foremost, we'll underscore the importance of avoiding the use of the root user for enhanced cloud security. Simultaneously, we'll initiate the creation of a new user responsible for establishing the entire architecture. In addition, we'll craft new roles, including those tailored for Lambda and AWS Glue, each meticulously configured with their requisite permissions.
+<img src='https://github.com/diegovillatoromx/Incremental_ETL_Pipeline/blob/main/images/iam_user.gif' alt="iam_user.gif">
 
 
 ## Data Description
