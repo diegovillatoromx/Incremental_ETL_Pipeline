@@ -7,7 +7,7 @@ from aws_cdk import Tags
 from kinesis_stream.kinesis_stream_stack import KinesisStreamStack
 from data_producer.data_producer_stack import DataProducerStack
 from data_consumer.data_consumer_stack import DataConsumerStack
-from s3_bucket.s3_bucket_stack import S3BucketStack
+from s3_bucket.s3_bucket_stack import S3BucketStack 
 
 env_USA = cdk.Environment(account="your-ID-account", region="us-east-1")
 app = cdk.App()
