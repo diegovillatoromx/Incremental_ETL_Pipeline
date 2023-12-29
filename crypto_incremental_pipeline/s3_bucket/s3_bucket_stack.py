@@ -5,7 +5,6 @@ from decouple import config
 
 PRIMARY_BUCKET_NAME = config("PRIMARY_BUCKET_NAME")
 
-
 class S3BucketStack(Stack):
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
