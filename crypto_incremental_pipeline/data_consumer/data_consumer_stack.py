@@ -8,7 +8,7 @@ from aws_cdk import (
     aws_events as events,
     aws_events_targets as targets,
     aws_kinesis as kinesis,
-    aws_lambda_event_sources,
+    aws_lambda_event_sources, 
 )
 from constructs import Construct
 from decouple import config
