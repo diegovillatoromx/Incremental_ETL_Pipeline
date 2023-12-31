@@ -5,7 +5,7 @@ In the domain of Data Engineering within AWS, cryptocurrency data analytics invo
  
 ## Table of Contents
 
-- [Description](#description)
+- [Description](#description) 
 - [Architecture](#architecture) 
 - [Modular Code Overview](#modular-code-overview)
 - [To create an AWS Cloud9 environment](#To-create-an-AWS-Cloud9-environment)
