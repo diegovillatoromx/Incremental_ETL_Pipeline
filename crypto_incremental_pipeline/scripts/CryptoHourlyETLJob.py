@@ -1,5 +1,5 @@
 import sys
-import boto3
+import boto3 
 from boto3.dynamodb.conditions import Key, Attr
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
