@@ -1,7 +1,7 @@
 # AWS CDK Cryptocurrency Incremental Pipeline
 
 ## Overview
-
+ 
 This Python script harnesses the power of the AWS Cloud Development Kit (CDK) to define and deploy multiple AWS stacks, each serving as a critical component of a cryptocurrency incremental pipeline. The script starts by importing essential modules and classes, including `os` for accessing environment variables and `aws_cdk` for CDK framework interaction. The script also imports the `Tags` class from `aws_cdk` to enable tagging of the CDK app.
 
 ### AWS CDK Environment
