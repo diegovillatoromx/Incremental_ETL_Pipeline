@@ -1,7 +1,7 @@
 from aws_cdk import (
     Stack,
     aws_lambda as _lambda,
-    aws_iam as iam,
+    aws_iam as iam, 
     Duration,
     aws_s3 as s3,
     aws_events as events,
