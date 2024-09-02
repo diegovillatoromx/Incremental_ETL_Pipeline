@@ -5,7 +5,7 @@
 This code is developed using the AWS Cloud Development Kit (CDK) and is designed to create an AWS stack responsible for setting up a Lambda function that produces cryptocurrency exchange rate data. The stack defines various AWS resources and configurations required for the Lambda function to execute at specific intervals.
 
 ### DataProducerStack Class
-
+ 
 The `DataProducerStack` class represents the AWS CDK stack and extends the `Stack` class. Within the constructor method:
 
 - An AWS Lambda function (`crypto_data_producer`) is set up to handle data production. This function is configured with a specific runtime (`LAMBDA_RUNTIME`) and associated code. It has a timeout of 60 seconds to complete its execution.
