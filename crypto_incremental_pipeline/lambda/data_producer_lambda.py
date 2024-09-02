@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 import boto3
 import time
-import math
+import math 
 
 API_KEY = os.environ["API_KEY"]
 INTRADAY_STREAM_NAME = os.environ["INTRADAY_STREAM_NAME"]
