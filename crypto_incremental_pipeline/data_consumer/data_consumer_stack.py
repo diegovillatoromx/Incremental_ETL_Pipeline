@@ -1,7 +1,7 @@
 from aws_cdk import (
     Stack,
     aws_lambda as _lambda,
-    aws_dynamodb as dynamodb_,
+    aws_dynamodb as dynamodb_, 
     aws_iam as iam,
     Duration,
     aws_s3 as s3,
