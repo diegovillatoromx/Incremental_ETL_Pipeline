@@ -3,7 +3,7 @@
 ## Overview
 
 This Python script fetches cryptocurrency exchange rate data from the Alpha Vantage API and stores it in an AWS Kinesis data stream. Here's a breakdown of its functionality:
-
+ 
 ### Importing Necessary Modules and Setting Environment Variables
 
 The script starts by importing necessary modules and setting up environment variables. These variables include the API key required to access the Alpha Vantage API and the name of the Kinesis data stream.
