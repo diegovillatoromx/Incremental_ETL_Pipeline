@@ -2,7 +2,7 @@
 
 ## Overview
 
-This code, developed using the AWS Cloud Development Kit (CDK), establishes an AWS stack responsible for creating a Lambda function that produces cryptocurrency exchange rate data. The stack encompasses various AWS resources and configurations essential for the Lambda function's execution at specified intervals.
+This code, developed using the AWS Cloud Development Kit (CDK), establishes an AWS stack responsible for creating a Lambda function that produces cryptocurrency exchange rate data. The stack encompasses various AWS resources and configurations essential for the Lambda function's execution at specified intervals. 
 
 ### DataProducerStack Class
 
