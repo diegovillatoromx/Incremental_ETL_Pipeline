@@ -1,5 +1,5 @@
 %flink.ssql
-
+ 
 CREATE TABLE `flink_test2` (
     `from_currency_code` STRING,
     `from_currency_name` STRING,
