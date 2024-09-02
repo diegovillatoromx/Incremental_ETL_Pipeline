@@ -1,5 +1,5 @@
 # AWS CDK Cryptocurrency Data Consumer
-
+ 
 ## Overview
 
 This code is developed using the AWS Cloud Development Kit (CDK) and is designed to define an AWS stack responsible for creating a Lambda function that consumes and processes data from a Kinesis data stream. The code encompasses several AWS services and configurations to set up the required resources for data consumption.
