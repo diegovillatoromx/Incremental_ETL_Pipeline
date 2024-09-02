@@ -2,7 +2,7 @@ import os
 import boto3
 import json
 import base64
-from decimal import Decimal
+from decimal import Decimal 
 
 TABLE_NAME = os.environ["DYNAMO_TABLE_NAME"]
 
