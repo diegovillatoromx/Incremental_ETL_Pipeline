@@ -1,7 +1,7 @@
 # AWS CDK Amazon S3 Bucket Creation
 
 ## Overview 
-
+ 
 This Python script employs the AWS Cloud Development Kit (CDK) to define an AWS stack responsible for creating an Amazon S3 bucket. The stack is constructed using the `Stack` class from the AWS CDK and is named `S3BucketStack`.
 
 ### S3BucketStack Class
