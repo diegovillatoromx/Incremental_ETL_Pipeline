@@ -1,4 +1,4 @@
-# Cryptocurrency Exchange Rate Data Ingestion
+# Cryptocurrency Exchange Rate Data Ingestion 
 
 ## Overview
 
