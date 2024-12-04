@@ -1,4 +1,4 @@
-# AWS CDK Cryptocurrency Data Consumer
+# AWS CDK Cryptocurrency Data Consumer 
  
 ## Overview
 
