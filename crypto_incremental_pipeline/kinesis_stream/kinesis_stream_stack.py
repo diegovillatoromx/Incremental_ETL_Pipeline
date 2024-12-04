@@ -1,5 +1,5 @@
 from aws_cdk import Stack, aws_kinesis as kinesis, Duration
-from constructs import Construct
+from constructs import Construct 
 from decouple import config 
 
 INTRADAY_STREAM_NAME = config("INTRADAY_STREAM_NAME")
