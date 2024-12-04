@@ -1,6 +1,6 @@
 # AWS CDK Kinesis Data Stream Example
  
-## Overview
+## Overview 
 
 This repository contains code developed using the AWS Cloud Development Kit (CDK) to provision a Kinesis data stream within the AWS infrastructure. The following explanation provides a detailed breakdown of the code's components and functionality:
 
