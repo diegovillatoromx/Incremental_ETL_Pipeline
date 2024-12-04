@@ -1,6 +1,6 @@
 # AWS CDK Cryptocurrency Exchange Rate Data Producer
 
-## Overview
+## Overview 
 
 This code is developed using the AWS Cloud Development Kit (CDK) and is designed to create an AWS stack responsible for setting up a Lambda function that produces cryptocurrency exchange rate data. The stack defines various AWS resources and configurations required for the Lambda function to execute at specific intervals.
 
