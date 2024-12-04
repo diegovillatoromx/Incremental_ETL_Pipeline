@@ -1,7 +1,7 @@
 import os
 from alpha_vantage.foreignexchange import ForeignExchange
 from datetime import datetime
-import json
+import json 
 import boto3
 import time
 import math 
